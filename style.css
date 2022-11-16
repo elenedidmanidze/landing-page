@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #0F172A;
+ }
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 42px 110px;
+ }
+
+.nav{
+    display: flex;
+    gap: 60px;
+}
+
+.nav a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8FAFC;
+    text-decoration: none;
+    
+}  
+.main{
+    padding: 349px 145px;
+}
+
+.img{
+    padding: 110px 953px 83px 144px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.article{
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 35px 84px 35px 8px;
+    display: flex;
+    gap: 44px;
+    align-items:center;
+}
+
+.article-info h3{
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.article-info p{
+    margin-bottom: 10px;
+    color: #CBD5E1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    transform: rotate(0.14deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.article-info p1{
+    margin-bottom: 40px;
+    color: #CBD5E1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.article1{
+    width: 369px;
+    height: 518px;
+    display: grid;
+    align-content: center;
+    background: #1E293B;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.article1-info h3{
+    margin-bottom: 71px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #F8FAFC;
+}
+
+.article1-info p{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #9CA3AF;
+}
+
+.article1-info p1{
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #9CA3AF;
+}
+
+.footer{
+    padding: 136px 2px 139px 2px;
+}
+
+.footer-all{
+    padding: 100px 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.footer span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 28px;
+}
+
